@@ -1,0 +1,131 @@
+# Compiled source and cached #
+##############################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.s
+*.ii
+*.so
+*.pyc
+
+# Binary files #
+################
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.odt
+*.ppt
+*.pptx
+*.nc
+*.rtf
+
+# Large files #
+###############
+*.pdf
+*.ps
+*.eps
+*.epsi
+*.gif
+*.dat
+*.png
+*.jpg
+*.tiff
+*.mpg
+
+
+# Build directories
+###################
+build
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# Logs and databases #
+######################
+*log
+log*
+*Log
+*.sql
+*.sqlite
+gmt.history
+gmt.conf
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+core
+
+# backup files #
+################
+*~
+*#
+*old
+*.bak
+
+# OpenFOAM build files but not run directory #
+########################
+*.dep
+linux*
+lnInclude
+
+# Time and mesh directories #
+[0-9]
+[0-9]*[0-9]
+polyMesh
+processor*
+
+# Modified source code #
+########################
+*.C?*
+*.H?*
+
+
+# Latex generated files #
+#########################
+*.aux
+*.out
+*.spl
+*.dvi
+*.bbl
+*.blg
+*.fff
+*.lof
+*.lot
+*.ttt
+
+# gedit latex file
+*.tex.ini
+
+testcases/build
+
+
+# video files
+*.gif
+*.ogv
+
+# paraFoam files
+#########################
+*.foam
+*.obj
+*.blockMesh
